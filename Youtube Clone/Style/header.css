@@ -1,0 +1,126 @@
+.header-flextTolbar{
+  height:56px;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top:0;
+  right:0;
+  left:0;
+  z-index: 100;
+  background-color: white;
+  border-bottom:1px solid #dedede;
+  column-gap: 10px;
+}
+
+.div-left-toolbar{
+  display: flex;
+  width:162px;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img-left-toolbar-hamburder{
+  width:24px;
+  margin-left:24px;
+  margin-right:24px;
+}
+
+.img-left-toolbar-YTLogo{
+  width:90px;
+}
+
+.div-middle-toolbar{
+  margin-left:60px;
+  width:400px;
+  display: flex;
+  flex:1;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-middle-toolbar-search{
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: 1px solid #cccccc;
+  box-shadow: inset 1px 1px 10px rgba(0,0,0,0.05);
+  flex:1;
+  max-width: 400px;
+  height: 36px;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-size: 16px;
+}
+
+.input-middle-toolbar-search::placeholder{
+  font-size: 16px;
+  color:rgb(158, 156, 156);
+}
+
+.button-middle-toolbar-searchButtonContainer{
+  width: 64px;
+  height: 40px;
+  border: 1px solid #cccccc;
+  margin-left: -2px;
+  border-top-right-radius:4px;
+  border-bottom-right-radius:4px;
+  margin-right:8px;
+}
+
+.img-middle-toolbar-searchButtonIcon{
+  width:24px;
+}
+
+.button-middle-toolbar-voiceSearchButtonContainer{
+  width:40px;
+  height: 40px;
+  border-radius: 20px;
+  border:none;
+}
+
+.img-middle-toolbar-voiceSearchButtonIcon{
+  width:24px;
+}
+
+.div-right-toolbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width:190px;
+  margin-left: 30px;
+  margin-right: 24px;
+}
+
+.img-right-toolbar-create{
+  width: 24px;
+}
+
+.img-right-toolbar-allApps{
+  width: 24px;
+}
+
+.div-right-toolbar-notificationContainer{
+  position:relative;
+}
+
+.img-right-toolbar-notification{
+  width: 24px;
+}
+
+.div-right-toolbar-notificationCount{
+  position:absolute;
+  top:-3px;
+  right:-7px;
+  background-color: rgb(206, 1, 1);
+  color:white;
+  border-radius: 14px;
+  font-size:10px;
+  padding: 2px 5px;
+  border: 2px solid white;
+}
+
+.img-right-toolbar-profile{
+  width: 32px;
+}

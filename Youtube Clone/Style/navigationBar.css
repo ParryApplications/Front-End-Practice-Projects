@@ -1,0 +1,39 @@
+.nav-gridnavigationBar{
+  position: fixed;
+  top:54px;
+  left:0;
+  bottom:0;
+  background-color: white;
+  width:72px;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  row-gap: 2px;
+  z-index: 2000px;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+.div-gridNav{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding:15px 0px 15px 0px;
+  cursor: pointer;
+}
+
+.div-gridNav:hover{
+  background-color: #dedede;
+}
+
+.img-iconNav{
+  width:24px;
+}
+
+.p-titleNav{
+  padding-top:5px;
+  font-size:10px;
+}
