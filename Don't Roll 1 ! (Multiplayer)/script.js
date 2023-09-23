@@ -16,7 +16,8 @@ const currentScore1 = document.getElementById("current--1");
 let score;
 let currentScore;
 let playerActive;
-const ScoreToWinTheGame = 100;
+const ScoreToWinTheGame = 10;
+const winningTrophy = " Wins🏆";
 
 init();
 
@@ -33,6 +34,10 @@ function init() {
 
 //Execute to reset the game:
 function gameReset() {
+  document.getElementById(`name--${playerActive}`).textContent = document
+    .getElementById(`name--${playerActive}`)
+    .textContent.replace(winningTrophy, "");
+
   //Reset the game:
   init();
 
@@ -45,9 +50,6 @@ function gameReset() {
   player0.classList.add("player--active");
   player1.classList.remove("player--winner");
   player1.classList.remove("player--active");
-  document
-    .getElementById(`name--${playerActive}`)
-    .textContent.replace(" Wins🏆", "");
 }
 
 butnHold.addEventListener("click", function () {
@@ -62,7 +64,8 @@ butnHold.addEventListener("click", function () {
     document
       .querySelector(`.player--${playerActive}`)
       .classList.add("player--winner");
-    document.getElementById(`name--${playerActive}`).textContent += " Wins🏆";
+    document.getElementById(`name--${playerActive}`).textContent +=
+      winningTrophy;
 
     //Pause the game:
     butnHold.disabled = true;
