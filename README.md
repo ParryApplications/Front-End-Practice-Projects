@@ -2,7 +2,7 @@
 This Repository contains all my front-end practice projects which I build while learning or building expertise in it.
 
 --------------------------------------------------
-**1) Game Instructions: Don't Roll 1**
+**1) Game Instructions: "Don't Roll 1"**
 
 Welcome to the "Don't Roll 1" game! Test your luck and strategy as you compete to reach a score of 100 points before your opponent.
 
